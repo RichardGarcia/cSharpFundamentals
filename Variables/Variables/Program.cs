@@ -10,23 +10,23 @@ namespace Variables
     {
         static void Main(string[] args)
         {        
-            int x;
-            int y;
+            //int x;
+            //int y;
 
-            x = 7;
-            y = x + 3;
+            //x = 7;
+            //y = x + 3;
 
-            Console.WriteLine(y);            
+            //Console.WriteLine(y);
 
             //string myFirstName;
             //myFirstName = "Bob";
 
             //string myFirstName = "Bob";
 
-            /*
+            
             var myFirstName = "Bob";
             Console.WriteLine("First name is {0}", myFirstName);
-            */
+            
 
             Console.ReadLine();
         }
