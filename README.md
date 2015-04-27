@@ -8,11 +8,10 @@ Want to learn a different language? Over the course of 25 episodes, our friend B
 Instructor | Bob Tabor – Microsoft MVP
 
 
-********
-Posh-Git notes.. :)
+___
+Note:
 
-By default, the status summary has the following format:
-
+Posh-Git 
 [{HEAD-name} +A ~B -C !D | +E ~F -G !H !]
 {HEAD-name} is the current branch, or the SHA of a detached HEAD
 Cyan means the branch matches its remote
@@ -26,3 +25,4 @@ ABCD represent the index; EFGH represent the working directory
 ! = Conflicted files
 As in git status, index status is dark green and working directory status is dark red
 The trailing ! means there are untracked files
+
