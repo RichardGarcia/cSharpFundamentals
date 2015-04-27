@@ -23,10 +23,19 @@ namespace Variables
 
             //string myFirstName = "Bob";
 
-            
-            var myFirstName = "Buddy";
-            Console.WriteLine("First name is {0}", myFirstName);
-            
+            //var myFirstName = "Buddy";
+            //Console.WriteLine("First name is {0}", myFirstName);
+
+
+            int x = 7;
+            //string y = "Bob";
+            string y = "5";
+            string myFirstTry = x.ToString() + y;
+
+            int mySecondTry = x + int.Parse(y);
+
+            //Console.WriteLine(myFirstTry);
+            Console.WriteLine(mySecondTry);
 
             Console.ReadLine();
         }
