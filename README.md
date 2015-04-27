@@ -26,24 +26,3 @@ ABCD represent the index; EFGH represent the working directory
 ! = Conflicted files
 As in git status, index status is dark green and working directory status is dark red
 The trailing ! means there are untracked files
-For example, a status of [master +0 ~2 -1 | +1 ~1 -0] corresponds to the following git status:
-
-# On branch master
-#
-# Changes to be committed:
-#   (use "git reset HEAD <file>..." to unstage)
-#
-#        modified:   this-changed.txt
-#        modified:   this-too.txt
-#        deleted:    gone.ps1
-#
-# Changed but not updated:
-#   (use "git add <file>..." to update what will be committed)
-#   (use "git checkout -- <file>..." to discard changes in working directory)
-#
-#        modified:   not-staged.ps1
-#
-# Untracked files:
-#   (use "git add <file>..." to include in what will be committed)
-#
-#        new.file
