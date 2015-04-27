@@ -24,7 +24,7 @@ namespace Variables
             //string myFirstName = "Bob";
 
             
-            var myFirstName = "Bob";
+            var myFirstName = "Buddy";
             Console.WriteLine("First name is {0}", myFirstName);
             
 
